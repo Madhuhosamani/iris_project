@@ -14,7 +14,7 @@ import joblib
 st.markdown('## Iris species prediction')
 sepal_length = st.number_input('sepal length (cm)')
 sepal_width = st.number_input('sepal width(cm)')
-petal_length=st.number-input('prtal length (cm)')
+petal_length=st.number_input('prtal length (cm)')
 petal_width=st.number_input('petal width (cm)')
 
 if st.button('predict'):
